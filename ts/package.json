@@ -1,0 +1,16 @@
+{
+    "name": "training",
+    "version": "1.0.0",
+    "description": "Api Rest",
+    "main": "index.js",
+    "scripts": {
+        "start": "node_modules/.bin/tsc && node build/index.js",
+        "dev": "node_modules/.bin/tsc && nodemon build/index.js"
+    },
+    "author": "m16u3l",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^1.18.3",
+        "typescript": "^3.0.1"
+    }
+}
