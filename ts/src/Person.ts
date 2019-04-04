@@ -5,7 +5,6 @@ export class Person implements Some {
     protected age: Number;
 
     constructor(fistName: string, lastName: string) {
-
         this.fullName = `${fistName} ${lastName}`;
         this.age = 25;
     }
