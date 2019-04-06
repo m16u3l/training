@@ -1,0 +1,5 @@
+C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.Domain\bin\Debug\WebService.Domain.dll
+C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.Domain\bin\Debug\WebService.Domain.pdb
+C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.Domain\obj\Debug\WebService.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.Domain\obj\Debug\WebService.Domain.dll
+C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.Domain\obj\Debug\WebService.Domain.pdb
