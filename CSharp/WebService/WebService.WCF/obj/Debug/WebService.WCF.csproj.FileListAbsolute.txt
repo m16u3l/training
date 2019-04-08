@@ -23,3 +23,28 @@ C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebServ
 C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.WCF\obj\Debug\WebService.WCF.csprojResolveAssemblyReference.cache
 C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.WCF\obj\Debug\WebService.WCF.dll
 C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.WCF\obj\Debug\WebService.WCF.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\ApplicationInsights.config
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\WebService.WCF.dll.config
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\WebService.WCF.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\WebService.WCF.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\EntityFramework.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\EntityFramework.SqlServer.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.Web.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\WebService.Data.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\WebService.Data.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\EntityFramework.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\EntityFramework.SqlServer.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.Web.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\obj\Debug\WebService.WCF.csprojResolveAssemblyReference.cache
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\obj\Debug\WebService.WCF.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.WCF\obj\Debug\WebService.WCF.pdb

@@ -16,7 +16,11 @@ namespace WebService.Odata
             // New code:
             ODataModelBuilder builder = new ODataConventionModelBuilder();
             builder.EntitySet<User>("Users");
-            config.Routes.MapODataServiceRoute("ODataRoute", "oData", builder.GetEdmModel()
+            config.Routes.MapODataServiceRoute(
+                routeName: "ODataRoute",
+                routePrefix: "oData",
+                model: builder.GetEdmModel()
+            //"ODataRoute", "oData", builder.GetEdmModel()
             );
         }
     }

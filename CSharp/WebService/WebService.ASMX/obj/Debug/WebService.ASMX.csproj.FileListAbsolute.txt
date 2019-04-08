@@ -37,3 +37,42 @@ C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebServ
 C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.ASMX\obj\Debug\WebService.ASMX.csprojResolveAssemblyReference.cache
 C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.ASMX\obj\Debug\WebService.ASMX.dll
 C:\Users\Miguel Condori\Documents\Visual Studio 2015\Projects\WebService\WebService.ASMX\obj\Debug\WebService.ASMX.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\ApplicationInsights.config
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\csc.exe
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\vbc.exe
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\VBCSCompiler.exe
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\WebService.ASMX.dll.config
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\WebService.ASMX.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\WebService.ASMX.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\EntityFramework.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\EntityFramework.SqlServer.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.Web.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\WebService.Data.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\WebService.Data.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\EntityFramework.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\EntityFramework.SqlServer.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.Web.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\obj\Debug\WebService.ASMX.csprojResolveAssemblyReference.cache
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\obj\Debug\WebService.ASMX.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.ASMX\obj\Debug\WebService.ASMX.pdb
