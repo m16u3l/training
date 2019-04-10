@@ -186,3 +186,6 @@ C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebS
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Odata\obj\Debug\WebService.Odata.csprojResolveAssemblyReference.cache
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Odata\obj\Debug\WebService.Odata.dll
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Odata\obj\Debug\WebService.Odata.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Odata\bin\System.Web.Cors.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Odata\bin\System.Web.Http.Cors.dll
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Odata\bin\System.Web.Http.Cors.xml

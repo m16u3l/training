@@ -16,3 +16,4 @@ C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebS
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Data\obj\Debug\WebService.Data.dll
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Data\obj\Debug\WebService.Data.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Data\obj\Debug\WebService.Data.csprojResolveAssemblyReference.cache

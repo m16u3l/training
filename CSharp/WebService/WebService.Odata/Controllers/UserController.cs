@@ -9,10 +9,12 @@ using System.Data.Entity.Infrastructure;
 using System.Threading.Tasks;
 using System.Web.Http.OData;
 
+using System.Web.Http.Cors;
 using WebService.Data.Model;
 
 namespace WebService.Odata.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UsersController : ODataController
     {
         UserConnection DB = new UserConnection();
@@ -28,6 +30,7 @@ namespace WebService.Odata.Controllers
         [EnableQuery]
         public IEnumerable<User> Post(User user)
         {
+            user.Id = Guid.NewGuid();
             DB.Users.Add(user);
             DB.SaveChanges();
             var userList = DB.Users.ToList();
@@ -36,9 +39,9 @@ namespace WebService.Odata.Controllers
 
         [HttpPut]
         [EnableQuery]
-        public IEnumerable<User> Put([FromODataUri] string key, User user)
+        public IEnumerable<User> Put([FromODataUri] Guid key, User user)
         {
-            var userToUpdate = DB.Users.FirstOrDefault(x => x.FirstName == key);
+            var userToUpdate = DB.Users.FirstOrDefault(x => x.Id == key);
             userToUpdate.LogOnName = user.LogOnName;
             userToUpdate.PasswordHash = user.PasswordHash;
             userToUpdate.IsEnabled = user.IsEnabled;
@@ -53,9 +56,9 @@ namespace WebService.Odata.Controllers
 
         [HttpDelete]
         [EnableQuery]
-        public IEnumerable<User> Delete([FromODataUri] string key)
+        public IEnumerable<User> Delete([FromODataUri] Guid key)
         {
-            var userToDelete = DB.Users.FirstOrDefault(x => x.FirstName == key);
+            var userToDelete = DB.Users.FirstOrDefault(x => x.Id == key);
             DB.Users.Remove(userToDelete);
             DB.SaveChanges();
             var userList = DB.Users.ToList();

@@ -1,5 +1,6 @@
 ts/node_modules
 ts/build
+
 CSharp/WebService/packages
 CSharp/WebService/WebService.Api/bin
 CSharp/WebService/WebService.ASMX/bin
@@ -7,3 +8,5 @@ CSharp/WebService/WebService.Data/bin
 CSharp/WebService/WebService.Domain/bin
 CSharp/WebService/WebService.Odata/bin
 CSharp/WebService/WebService.WCF/bin
+
+KendoUI/node_modules
