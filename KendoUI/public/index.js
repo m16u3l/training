@@ -78,7 +78,6 @@ $(document).ready(function () {
                 });
             },
             parameterMap: function (options, operation) {
-                console.log("----------------> ", options)
                 if (operation !== "read" && options.models) {
                     return { models: kendo.stringify(options.models) };
                 }
@@ -101,13 +100,8 @@ $(document).ready(function () {
         }
     });
 
-    dataSource.fetch((result) => {
-        console.log(result)
-    })
-
     $("#grid").kendoGrid({
-        sortable: false,
-        autoBind: false,
+        // autoBind: false,
         dataSource: dataSource,
         pageable: true,
         height: 550,

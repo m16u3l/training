@@ -7,3 +7,4 @@ C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebS
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Domain\bin\Debug\WebService.Domain.pdb
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Domain\obj\Debug\WebService.Domain.dll
 C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Domain\obj\Debug\WebService.Domain.pdb
+C:\Users\Miguel Condori\Documents\training\first\training\CSharp\WebService\WebService.Domain\obj\Debug\WebService.Domain.csprojResolveAssemblyReference.cache
