@@ -15,8 +15,8 @@
           <Property Name="IsEnabled" Type="bit" Nullable="false" />
           <Property Name="ExpiryDate" Type="datetime" />
           <Property Name="PasswordChangeDate" Type="datetime" Nullable="false" />
-          <Property Name="FirstName" Type="nchar" MaxLength="255" Nullable="false" />
-          <Property Name="LastName" Type="nchar" MaxLength="255" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="255" Nullable="false" />
         </EntityType>
         <EntityContainer Name="UserModelStoreContainer">
           <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
@@ -36,8 +36,8 @@
           <Property Name="IsEnabled" Type="Boolean" Nullable="false" />
           <Property Name="ExpiryDate" Type="DateTime" Precision="3" />
           <Property Name="PasswordChangeDate" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
         </EntityType>
         <EntityContainer Name="UserConnection" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Users" EntityType="Self.User" />
