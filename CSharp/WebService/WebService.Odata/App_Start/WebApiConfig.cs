@@ -14,14 +14,12 @@ namespace WebService.OData
         public static void Register(HttpConfiguration config)
         {
             config.EnableCors();
-            // New code:
             ODataModelBuilder builder = new ODataConventionModelBuilder();
             builder.EntitySet<User>("Users");
             config.Routes.MapODataServiceRoute(
                 routeName: "ODataRoute",
                 routePrefix: "oData",
                 model: builder.GetEdmModel()
-            //"ODataRoute", "oData", builder.GetEdmModel()
             );
         }
     }
