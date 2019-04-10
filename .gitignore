@@ -1,19 +1,4 @@
 ts/node_modules
 ts/build
 
-CSharp/WebService/packages
-CSharp/WebService/WebService.Api/bin
-CSharp/WebService/WebService.ASMX/bin
-CSharp/WebService/WebService.Data/bin
-CSharp/WebService/WebService.Domain/bin
-CSharp/WebService/WebService.Odata/bin
-CSharp/WebService/WebService.WCF/bin
-
-CSharp/WebService/WebService.Api/obj
-CSharp/WebService/WebService.ASMX/obj
-CSharp/WebService/WebService.Data/obj
-CSharp/WebService/WebService.Domain/obj
-CSharp/WebService/WebService.Odata/obj
-CSharp/WebService/WebService.WCF/obj
-
 KendoUI/node_modules

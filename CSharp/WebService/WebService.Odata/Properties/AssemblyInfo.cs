@@ -1,16 +1,16 @@
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WebService.Odata")]
+[assembly: AssemblyTitle("WebService.OData")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebService.Odata")]
-[assembly: AssemblyCopyright("Copyright �  2019")]
+[assembly: AssemblyProduct("WebService.OData")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("79ebf82a-b028-4325-aae0-4258571af8f8")]
+[assembly: Guid("254d01f6-d591-41a4-92ee-e90a3f84ff35")]
 
 // Version information for an assembly consists of the following four values:
 //

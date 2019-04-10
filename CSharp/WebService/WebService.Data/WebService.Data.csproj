@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CBD88D2B-8C6D-4D4E-B6F2-76C58B226AB0}</ProjectGuid>
+    <ProjectGuid>{CE709F91-A01D-4329-A681-63D8AEAA1553}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WebService.Data</RootNamespace>
@@ -51,7 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Model\User.cs">
       <DependentUpon>UserModel.tt</DependentUpon>
     </Compile>
@@ -61,9 +60,9 @@
       <DependentUpon>UserModel.Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\UserModel.cs">
-      <DependentUpon>UserModel.tt</DependentUpon>
-      <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\UserModel.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -77,14 +76,13 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>UserModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="App.Config" />
     <None Include="Model\UserModel.edmx.diagram">
       <DependentUpon>UserModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Model\UserModel.Context.tt">
@@ -94,9 +92,12 @@
     </Content>
     <Content Include="Model\UserModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>UserModel.cs</LastGenOutput>
       <DependentUpon>UserModel.edmx</DependentUpon>
+      <LastGenOutput>UserModel.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

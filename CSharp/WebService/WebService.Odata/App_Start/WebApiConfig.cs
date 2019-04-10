@@ -7,7 +7,7 @@ using System.Web.Http.OData.Extensions;
 
 using WebService.Data.Model;
 
-namespace WebService.Odata
+namespace WebService.OData
 {
     public static class WebApiConfig
     {
