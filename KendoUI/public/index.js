@@ -1,81 +1,34 @@
 $(document).ready(function () {
+    const ajax = new Ajaxservice();
     const dataSource = new kendo.data.DataSource({
         transport: {
-            read: function (options) {
-                $.ajax({
-                    url: "http://localhost:51987/odata/Users",
-                    type: 'GET',
-                    datatype: 'json',
-                    success: function (result) {
-                        console.log("get", result.value)
-                        options.success(result.value);
-                    },
-                    error: function (result) {
-                        console.log("error to get")
-                    }
-                });
+            read: async (options) => {
+                const userList = await ajax.getUsers();
+                options.data = userList
+                userList !== "error" ?
+                    options.success(userList) :
+                    options.error("error")
             },
-            create: function (options) {
+            create: async (options) => {
                 const data = options.data.models[0];
-                $.ajax({
-                    url: "http://localhost:51987/odata/Users",
-                    type: 'POST',
-                    data: {
-                        FirstName: data.FirstName,
-                        IsEnabled: data.IsEnabled,
-                        LastName: data.LastName,
-                        LogOnName: data.LogOnName,
-                        PasswordHash: 'other',
-                        ExpiryDate: data.ExpiryDate.toJSON(),
-                        PasswordChangeDate: data.ExpiryDate.toJSON(),
-                    },
-                    success: function (result) {
-                        options.success(result.value);
-                        console.log("created", result.value)
-                    },
-                    error: (result) => {
-                        console.log("error to create")
-                    },
-                });
+                const newUser = await ajax.createUser(data);
+                newUser !== "error" ?
+                    options.success(newUser) :
+                    options.error("error")
             },
-            update: function (options) {
+            update: async (options) => {
                 const data = options.data.models[0]
-                const newUser = {
-                    Id: data.Id,
-                    FirstName: data.FirstName,
-                    IsEnabled: data.IsEnabled,
-                    LastName: data.LastName,
-                    LogOnName: data.LogOnName,
-                    PasswordHash: 'new',
-                    ExpiryDate: data.ExpiryDate.toJSON(),
-                    PasswordChangeDate: data.ExpiryDate.toJSON(),
-                }
-                $.ajax({
-                    url: `http://localhost:51987/odata/Users(guid'${data.Id}')`,
-                    type: 'PUT',
-                    data: newUser,
-                    success: function (result) {
-                        console.log("updated", result.value)
-                        options.success(result.value);
-                    },
-                    error: (result) => {
-                        console.log("error to update", result)
-                    },
-                });
+                const updatedList = await ajax.updateUser(data);
+                updatedList !== "error" ?
+                    options.success(updatedList) :
+                    options.error("error")
             },
-            destroy: function (options) {
+            destroy: async (options) => {
                 const data = options.data.models[0]
-                $.ajax({
-                    url: `http://localhost:51987/odata/Users(guid'${data.Id}')`,
-                    type: 'DELETE',
-                    success: function (result) {
-                        console.log("deleted", result.value);
-                        options.success(result.value);
-                    },
-                    error: function (result) {
-                        console.log("error to delete");
-                    }
-                });
+                const deltedList = await ajax.deleteUser(data);
+                deltedList !== "error" ?
+                    options.success(deltedList) :
+                    options.error("error")
             },
             parameterMap: function (options, operation) {
                 if (operation !== "read" && options.models) {
@@ -100,16 +53,16 @@ $(document).ready(function () {
         }
     });
 
+    dataSource.fetch()
+
     $("#grid").kendoGrid({
-        // autoBind: false,
+        autoBind: false,
         dataSource: dataSource,
         pageable: true,
-        height: 550,
         toolbar: [
             { name: "create", text: "New User" }
         ],
         columns: [
-            // { title: "#", width: "40px" },
             { field: "FirstName", title: "First Name" },
             { field: "LastName", title: "LastName" },
             { field: "LogOnName", title: "Log On Name" },
