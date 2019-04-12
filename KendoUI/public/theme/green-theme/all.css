@@ -1,3 +1,9 @@
+/* Custom code */
+.k-widget.k-window {
+  width: 435px;
+  height: 480px;
+}
+
 .k-button[disabled],
 [disabled] .k-button {
   outline: none;

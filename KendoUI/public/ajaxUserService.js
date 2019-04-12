@@ -1,12 +1,12 @@
-class Ajaxservice {
+class AjaxUserService {
     constructor() {
-        this.oDataUri = "http://localhost:51987/odata/Users";
+        this.oDataUri = "http://localhost:51987/odata";
     }
 
     getUsers = async () => {
         let userList;
         await $.ajax({
-            url: this.oDataUri,
+            url: `${this.oDataUri}/Users`,
             type: 'GET',
             datatype: 'json',
             success: function (result) {
@@ -22,7 +22,7 @@ class Ajaxservice {
     createUser = async (data) => {
         let userList;
         await $.ajax({
-            url: this.oDataUri,
+            url: `${this.oDataUri}/Users`,
             type: 'POST',
             data: {
                 FirstName: data.FirstName,
@@ -56,7 +56,7 @@ class Ajaxservice {
             PasswordChangeDate: data.ExpiryDate.toJSON(),
         }
         $.ajax({
-            url: `${this.oDataUri}(guid'${data.Id}')`,
+            url: `${this.oDataUri}/Users(guid'${data.Id}')`,
             type: 'PUT',
             data: newUser,
             success: function (result) {
@@ -72,7 +72,7 @@ class Ajaxservice {
     deleteUser = async (data) => {
         let userList;
         await $.ajax({
-            url: `${this.oDataUri}(guid'${data.Id}')`,
+            url: `${this.oDataUri}/Users(guid'${data.Id}')`,
             type: 'DELETE',
             success: function (result) {
                 userList = result.value
