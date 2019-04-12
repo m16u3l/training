@@ -23,18 +23,18 @@ namespace WebService.Odata.Controllers
 
         [HttpPost]
         [EnableQuery]
-        public IEnumerable<User> Post(User user)
+        public User Post(User user)
         {
             user.Id = Guid.NewGuid();
             DB.Users.Add(user);
             DB.SaveChanges();
-            var userList = DB.Users.ToList();
-            return userList;
+            //var userList = DB.Users.ToList();
+            return user;
         }
 
         [HttpPut]
         [EnableQuery]
-        public IEnumerable<User> Put([FromODataUri] Guid key, User user)
+        public User Put([FromODataUri] Guid key, User user)
         {
             var userToUpdate = DB.Users.FirstOrDefault(x => x.Id == key);
             userToUpdate.LogOnName = user.LogOnName;
@@ -45,19 +45,19 @@ namespace WebService.Odata.Controllers
             userToUpdate.FirstName = user.FirstName;
             userToUpdate.LastName = user.LastName;
             DB.SaveChanges();
-            var userList = DB.Users.ToList();
-            return userList;
+            //var userList = DB.Users.ToList();
+            return user;
         }
 
         [HttpDelete]
         [EnableQuery]
-        public IEnumerable<User> Delete([FromODataUri] Guid key)
+        public User Delete([FromODataUri] Guid key)
         {
             var userToDelete = DB.Users.FirstOrDefault(x => x.Id == key);
             DB.Users.Remove(userToDelete);
             DB.SaveChanges();
-            var userList = DB.Users.ToList();
-            return userList;
+            //var userList = DB.Users.ToList();
+            return userToDelete;
         }
     }
 }
